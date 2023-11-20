@@ -1,0 +1,40 @@
+.container {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-image: linear-gradient(to right, #fa7257, #fc63a7);
+}
+
+.heading {
+  font-size: 48px;
+  color: #ffffff;
+  font-family: 'roboto';
+}
+.button-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.button {
+  color: #dd1264;
+  border-radius: 10px;
+  height: 50px;
+  width: 300px;
+  margin: 20px;
+  font-weight: 700;
+}
+.name {
+  background-color: #fddddb;
+  height: 100px;
+  width: 300px;
+  border-radius: 20px;
+  margin: 20px;
+  text-align: center;
+  padding: 50px;
+}
+.row {
+  display: flex;
+  flex-direction: row;
+}
